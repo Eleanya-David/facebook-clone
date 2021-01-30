@@ -1,0 +1,146 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #F0F2F5;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-left {
+    display: flex;
+    flex-flow: column wrap;
+    /* border: 2px solid black; */
+    width: 500px;
+    margin-right: 25px;
+}
+
+.facebook-text {
+    width: 301.5px;
+    height: 105.99px;
+}
+
+.caption-div {
+    margin-left: 26px;
+}
+
+.caption {
+    color:#1c1E21;
+    font-weight: 530;
+    font-size: 30px;
+    margin-top: -2px;
+}
+
+.container-right {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    width: 370px;
+    height: 320px;
+    border-radius: 13px;
+    box-shadow:1px 2px 7px black;
+}
+
+.inputs {
+    display:flex;
+    flex-flow: column;
+}
+
+.inputs input {
+    border-radius: 8px;
+    border: 1.5px solid darkgray;
+    padding: 2.5px;
+    width: 360.98px;
+    height: 50.96px;
+    font-size: 15px;
+    transition: all 1s ease;
+    background-color: #E8F0FE;
+}
+
+.second-input {
+    margin-top: 10px;
+}
+
+.login{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #1877F2;
+    width: 360.98px;
+    height: 50.96px;
+    border-radius: 8px;
+}
+
+.login h2 {
+    color: white;
+    font-weight: 600;
+    font-size: 25px; 
+}
+
+.f-pass {
+    color:#1877F2;
+    text-align: center;
+}
+
+.f-pass:hover {
+    text-decoration: underline;
+}
+
+.link-margin {
+    margin-top: 15px;
+}
+
+.hr{
+    border-color: rgba(139, 137, 137, 0.925);
+    border-width: 0.3px;
+    width: 350px;
+}
+
+.create {
+    background-color: #42B72A;
+    width: 210px;
+    padding: 10.5px;
+    margin: auto;
+    border-radius: 6px;
+}
+
+.create h2 {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    text-align: center;
+    word-spacing: 1px;
+    text-transform: capitalize;
+    font-weight: 740;
+}
+
+
+@media only screen and (max-width:450px) {
+    .container-right {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .inputs input {
+        width: 300px;
+    }
+
+    .login {
+        width: 300px;
+    }
+
+    .hr {
+        width: 320px;
+    }
+}
